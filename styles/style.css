@@ -1,8 +1,12 @@
+:root{
+  --clr-primary:#6a0136;
+}
+
 section{
   margin:1rem auto;
 }
 
-footer a{
-  color:#fff ;
+section a{
+  color:var(--clr-primary) ;
   font-size: 1.4rem;
 }
